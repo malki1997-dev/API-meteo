@@ -1,0 +1,82 @@
+body
+{
+
+background-image: url('im.webp');
+background-size: cover;
+background-repeat: no-repeat;
+min-height: 100vh;
+
+}
+
+.box-container
+{
+    width:300px;
+    height:300px;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: white;
+}
+
+
+
+#city
+{
+    background-color: rgba(41,128,185,0.8);
+    width:150px;
+    height: 150px;
+}
+
+#temp
+{
+    background-color: rgba(45, 78,101,0.8);
+    width:150px;
+    height: 150px;
+}
+
+#humidity
+{
+    background-color: rgba(52,152,219,0.8);
+    width:150px;
+    height: 150px;
+}
+
+#wind
+{
+
+    background-color: rgba(143,126,184,0.8);
+    width:150px;
+    height: 150px;
+}
+
+#inputcity
+{
+
+    width:350px ;
+
+}
+
+#btns
+{
+    width:200px ;
+    margin-left: 60px;
+    
+}
+
+
+.contain
+{
+padding-top: 50px;
+width: 600px;
+background-color:rgba(218, 205, 205, 0.445);
+height: 480px;
+margin: 0 auto;
+display: grid;
+grid-template-columns: 400x;
+justify-content: center;
+border-radius: 25px;
+
+}
